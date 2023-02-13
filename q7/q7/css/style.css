@@ -1,1 +1,30 @@
 @charset "UTF-8";
+
+.blown-box {
+  width: 500px;
+  padding: 20px;
+  font-size: 16px;
+  line-height: 16px;
+  background-color: #fad296;
+  border: solid 5px #8f5a0a;
+  border-radius: 30px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.blown-box:before,.blown-box:after {
+  content: "";
+  position: absolute;
+  border: 20px solid transparent;
+  left: 30px;
+}
+
+.blown-box:before {
+  border-top: 20px solid #8f5a0a;
+  bottom: -45px;
+}
+
+.blown-box:after {
+  border-top: 20px solid #fad296;
+  bottom: -38px;
+}
