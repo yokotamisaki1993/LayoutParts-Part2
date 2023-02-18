@@ -1,1 +1,105 @@
 @charset "UTF-8";
+
+
+.flex-buttom {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  padding: 0 15px;
+  margin-left: 30px;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btn:first-child {
+  margin-left: 0;
+}
+
+.rad-buttom {
+  background-color: #fd0f0fd9;
+  color: #fff;
+}
+
+.blue-buttom {
+  background-color: #170ffdd9;
+  color: #fff;
+}
+
+.green-buttom {
+  background-color: #0ffd0fd9;
+  color: #fff;
+}
+
+.shadow-rad-buttom {
+  background-color: #fd0f0fd9;
+  color: #fff;
+  position: relative;
+  box-shadow: 0 6px 0 rgba(63, 5, 5, 0.851),0 6px 1px rgba(63, 5, 5, 0.851);
+}
+
+.shadow-blue-buttom {
+  background-color: #170ffdd9;
+  color: #fff;
+  position: relative;
+  box-shadow: 0 6px 0 rgba(5, 13, 63, 0.851),0 6px 1px rgba(5, 13, 63, 0.851);
+}
+
+.shadow-green-buttom {
+  background-color: #0ffd0fd9;
+  color: #fff; 
+  position: relative;
+  box-shadow: 0 6px 0 rgba(5, 63, 5, 0.851),0 6px 1px rgba(5, 63, 5, 0.851);
+}
+
+.active-rad-buttom {
+  background-color: #fd0f0fd9;
+  color: #fff;
+}
+
+.active-blue-buttom {
+  background-color: #170ffdd9;
+  color: #fff;
+}
+
+.active-green-buttom {
+  background-color: #0ffd0fd9;
+  color: #fff; 
+}
+
+
+.active-rad-buttom:active,.active-blue-buttom:active,.active-green-buttom:active {
+  transform: translateY(5px);
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);
+  border-bottom: none;
+}
+
+.W-buttom {
+  color: #67c5ff;
+  border: 4px double #67c5ff;
+  transition: .5s;
+}
+
+.W-buttom:hover {
+  background-color: #fffbef;
+}
+
+.dotted-buttom {
+  color:#67c5ff;
+  border: 4px dotted #67c5ff;
+  transition: .5s;
+}
+
+.back-buttom {
+  color:#0079a5f8;
+  background-color: #d0edfff8;
+  border: 4px dashed #67c5ff;
+}
+
+.back-buttom:hover {
+  color:#67c5ff;
+  background-color: #fff;
+}
